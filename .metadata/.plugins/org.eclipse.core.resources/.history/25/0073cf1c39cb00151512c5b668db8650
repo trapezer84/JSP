@@ -1,0 +1,49 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body bgcolor="#082f43">
+
+
+
+
+	<br /> 
+	<h1 style="color:white">${ man }번 남성과 ${ woman }번 여성을 선택하였습니다.</h1> 
+	<br />
+	<br />
+	
+	<c: var="man" items="${ man }">
+	
+	<table border="1" style="width:100%">
+		<tr>
+			<th>남자 사진</th>
+			<td>
+			
+			<c:if ${ man }="1">
+				<img scr="http://www.fashionseoul.com/wp-content/uploads/2014/02/20140203_TNGT_LeeJinWook-1.jpg"/>
+			</c:if>		
+			
+			
+			</td>
+		</tr>
+		
+		<tr>
+			<th>여자 사진</th>
+			<td></td>
+		</tr>
+		
+	</table>
+
+	<div>
+		<a href="./index.jsp">
+			<input type="button" value="되돌아가기"/>
+		</a>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" type="image/x-icon"
+	href="http://a2.mzstatic.com/us/r30/Purple5/v4/c1/16/25/c1162576-3495-113d-1ae9-fe495ab49b64/icon175x175.png" />
+<title>기연이네 산장미팅</title>
+
+<style>
+.myButton {
+	-moz-box-shadow: 3px 4px 0px 0px #8a2a21;
+	-webkit-box-shadow: 3px 4px 0px 0px #8a2a21;
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24437));
+	background:-moz-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:-webkit-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:-o-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:-ms-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24437',GradientType=0);
+	background-color:#c62d1f;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24437), color-stop(1, #c62d1f));
+	background:-moz-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-webkit-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-o-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-ms-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24437', endColorstr='#c62d1f',GradientType=0);
+	background-color:#f24437;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+</style>
+</head>
+<body bgcolor="#082f43" >
+
+	<div style="background: #B3BEC0; color: white; padding: 120">
+		<h1 align="center">어서오십시오. 기연이네 산장미팅!</h1>
+	</div>
+
+	<div align="center" style="color: white">
+		<h2>
+			어울리는 <span style="color: red">짝</span>을 만들어주세요!
+		</h2>
+
+	</div>
+
+	<br />
+
+	<br />
+	<div align="center">
+		<iframe name="display" src="./showIdealType.jsp" width="1100"
+			height="670"></iframe>
+	</div>
+	
+	<div align="center" > 
+	<br />
+		<a href="./showother.jsp" target="display" class="myButton">이상형 한번 바꾸기</a>
+		<br />
+		<br />
+	</div>
+
+	<div align="center" style="color: pink">
+		<form method="post" action="/AEA_Assignment/result">
+			남자 번호: <input type="text" name="man" placeholder="남성 번호를 입력하세요"><br>
+			여자 번호: <input type="text" name="woman" placeholder="여성 번호를 입력하세요"><br>
+			<br /> <input type="submit" value="짝 맺어주기">
+		</form>
+
+		<br />
+		
+		<details style="color: black">
+			<summary>선택을 못 하시겠다면 클릭! (추천 커플)</summary>
+			<p>1번 3번</p>
+			<p>2번 4번</p>
+			<p>3번 1번</p>
+			<p>4번 2번</p>
+		</details>
+
+	</div>
+
+
+</body>
+</html>

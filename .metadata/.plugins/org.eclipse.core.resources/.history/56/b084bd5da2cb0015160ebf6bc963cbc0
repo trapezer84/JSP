@@ -1,0 +1,51 @@
+package com.ktds.leinalee;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class SelectedCompany
+ */
+public class SelectedCompany extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public SelectedCompany() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		this.doPost(request, response);
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		String company = request.getParameter("companylist");
+		
+		if ( company.equals("companyA") ) {
+			response.sendRedirect("http://www.gayeon.com/guide/event_10th.asp");
+			
+		} else if ( company.equals("https://www.duo.co.kr/html/love_test/main.asp?evt_no=0&u_div=ADSITE_duokeyword4_41217_banner&div_url=ADSITE_duokeyword4_41217_banner&keywd=CUtAi946&source=adwords&_C_=26&gclid=Cj0KEQiAisy1BRD7_YSgpduD2cEBEiQAPR3UuGpKXF1PvmG0eyL6QKB2R3OdgX5mXjSeCWUnvoGULfoaAg-Q8P8HAQ") ) {
+			
+		} else if ( company.equals("companyC") ) {
+			
+		} else if ( company.equals("companyD") ) {
+			
+		} 
+		
+		
+	}
+
+}

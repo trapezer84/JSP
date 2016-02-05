@@ -1,0 +1,57 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<div style="background: #082f43; color: white; padding:120">
+		<h1>어서오십시오. 기연이네 산장미팅!</h1>
+	</div>
+
+	<div>
+		<h2>
+			어울리는 <span style="color: red">짝</span>을 만들어주세요!
+		</h2>
+		<a href="http://www.gayeon.com/guide/event_10th.asp" target="_blank">
+			<button type="button" onclick="alert('잘 생각 하셨습니다!')">내짝 찾기!</button>
+		</a>
+	</div>
+
+	<br />
+	
+	<div>
+		<select name="carlist" form="carform">
+			<option value="pageA">가연 결혼 정보회사</option>
+			<option value="pageB">결혼해 듀오</option>
+			<option value="pageC">디노블 결혼회사</option>
+			<option value="pageD">기연이의 블로그</option>
+		</select>
+	</div>
+
+
+	<br />
+	<iframe src="http://10.225.152.184:8080/AEA_Assignment/showIdealType"></iframe>
+
+	<div align="center">
+		<form method="post" action="/SelectIdealType/result">
+			남자 번호: <input type="text" name="man" placeholder="남성 번호를 입력하세요"><br>
+			여자 번호: <input type="text" name="woman" placeholder="여성 번호를 입력하세요"><br>
+			<input type="submit" value="짝 맺어주기">
+		</form>
+
+		<details style="color: black">
+			<summary>선택을 못 하시겠다면 클릭! (추천 커플)</summary>
+			<p>1번 3번</p>
+			<p>2번 4번</p>
+			<p>3번 1번</p>
+			<p>4번 2번</p>
+		</details>
+
+	</div>
+
+</body>
+</html>

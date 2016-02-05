@@ -23,7 +23,7 @@ public class AdditionResult3 extends HttpServlet {
         super();
     }
 
-	/**
+	/**A
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
