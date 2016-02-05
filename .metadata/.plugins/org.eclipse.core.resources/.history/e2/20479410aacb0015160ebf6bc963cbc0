@@ -81,9 +81,9 @@
 
 	<div align="center" style="color: pink">
 		<form method="post" action="/AEA_Assignment/result">
-			남자 번호: <input type="text" name="man" placeholder="남성 번호를 입력하세요" style="height:30px; font-size:14pt"><br>
-			여자 번호: <input type="text" name="woman" placeholder="여성 번호를 입력하세요" style="height:30px; font-size:14pt"><br>
-			<br /> <input class="myButton" type="submit" value="짝 맺어주기">
+			남자 번호: <input type="text" name="man" placeholder="남성 번호를 입력하세요"><br>
+			여자 번호: <input type="text" name="woman" placeholder="여성 번호를 입력하세요"><br>
+			<br /> <input type="submit" value="짝 맺어주기">
 		</form>
 
 		<br />
