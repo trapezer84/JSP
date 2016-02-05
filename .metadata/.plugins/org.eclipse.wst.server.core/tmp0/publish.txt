@@ -1,5 +1,5 @@
 #Tomcat publish data
-#Fri Feb 05 10:50:08 KST 2016
+#Fri Feb 05 13:58:53 KST 2016
 org.eclipse.jst.jee.server\:ACA_Assignment0203=D\:\\spring-tool-suite-3.7.2.RELEASE-e4.5.1-win32-x86_64 (1)\\sts-bundle\\pivotal-tc-server-developer-3.1.2.RELEASE\\base-instance\\wtpwebapps\\ACA_Assignment0203
 org.eclipse.jst.jee.server\:ABA_Assignment0202=D\:\\spring-tool-suite-3.7.2.RELEASE-e4.5.1-win32-x86_64 (1)\\sts-bundle\\pivotal-tc-server-developer-3.1.2.RELEASE\\base-instance\\wtpwebapps\\ABA_Assignment0202
 org.eclipse.jst.jee.server\:AB_WebCalc=D\:\\spring-tool-suite-3.7.2.RELEASE-e4.5.1-win32-x86_64 (1)\\sts-bundle\\pivotal-tc-server-developer-3.1.2.RELEASE\\base-instance\\wtpwebapps\\AB_WebCalc

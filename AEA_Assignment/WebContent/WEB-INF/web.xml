@@ -29,4 +29,14 @@
     <servlet-name>SelectedCompany</servlet-name>
     <url-pattern>/SelectedCompany</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>changeColorPage</display-name>
+    <servlet-name>changeColorPage</servlet-name>
+    <servlet-class>com.ktds.leinalee.changeColorPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>changeColorPage</servlet-name>
+    <url-pattern>/changeColorPage</url-pattern>
+  </servlet-mapping>
 </web-app>
