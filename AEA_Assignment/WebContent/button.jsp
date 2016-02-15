@@ -15,7 +15,7 @@
 		var range = document.getElementById("borderSize");
 		document.getElementById("rangeValue").innerText = range.value;
 		
-		document.getElementById("iframe").src = "/AEA_Assignment/changeColorPage?rage=" + range.value;
+		document.getElementById("iframe").src = "/AEA_Assignment/changeColorPage?colorRage=" + range.value;
 	}
 
 </script>
