@@ -1,9 +1,0 @@
-package com.ktds.leinalee;
-
-import javax.servlet.annotation.WebServlet;
-
-@WebServlet("/SelectType")
-public class SelectType {
-
-	
-}

@@ -9,6 +9,19 @@
 .joinformat {
 
 }
+
+button.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: white;
+	padding: 10px 20px;
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#529dcc),
+		to(#529dcc));
+	width:295px
+}
+
 </style>
 
 </head>
@@ -24,14 +37,14 @@
 </div>
 
 <div align="center">
-	<form method="post" id="jointag">
+	<form method="post" id="jointag" action="/AEB_JavaProgramming/getInfo">
 	<div class="">
-		 <input id="joinemail" type="email" placeholder="이메일"  style="display:block; padding:10px" />
-		 <input id="joinpassword" type="password" placeholder="비밀번호" style="display:block; padding:10px"/> 
-		 <input id="joinusername" type="text" placeholder="사용자이름" style="display:block; padding:10px"/>
+		 <input id="joinemail" type="email" placeholder="이메일"  style="display:block; padding:10px; width:270px" />
+		 <input id="joinpassword" type="password" placeholder="비밀번호" style="display:block; padding:10px; width:270px"/> 
+		 <input id="joinusername" type="text" placeholder="사용자이름" style="display:block; padding:10px; width:270px"/>
 	</div>
 		<br />
-		<button type="submit">가입</button>
+		<button type="submit" name="" value="" class="css3button">가입</button>
 	</form>
 </div>
 

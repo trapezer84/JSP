@@ -9,4 +9,24 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>getInfo</display-name>
+    <servlet-name>getInfo</servlet-name>
+    <servlet-class>com.ktds.leinalee.web.getInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getInfo</servlet-name>
+    <url-pattern>/getInfo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>useLogin</display-name>
+    <servlet-name>useLogin</servlet-name>
+    <servlet-class>com.ktds.leinalee.web.useLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>useLogin</servlet-name>
+    <url-pattern>/useLogin</url-pattern>
+  </servlet-mapping>
 </web-app>

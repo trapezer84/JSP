@@ -52,7 +52,7 @@ public class SelectIdealType extends HttpServlet {
 		request.setAttribute("score", score);
 
 		
-		RequestDispatcher rd = request.getRequestDispatcher("/list.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("/joinComplete.jsp");
 		rd.forward(request, response);
 	}
 

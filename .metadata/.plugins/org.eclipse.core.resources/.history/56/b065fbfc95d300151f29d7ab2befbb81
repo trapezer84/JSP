@@ -1,0 +1,10 @@
+package com.ktds.leinalee.vo;
+
+public class infoVO {
+
+	private String userEmail;
+	private String userPassword;
+	private String userName;
+	
+	
+}
