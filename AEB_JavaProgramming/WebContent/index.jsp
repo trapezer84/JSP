@@ -32,7 +32,7 @@ button.css3button {
 </div>
 
 <div align="right">
-	<button type="submit">로그인</button>
+	<a href="./loginPage.jsp"> <button type="submit">로그인</button> </a>
 	<button type="submit">가입</button>
 </div>
 

@@ -22,6 +22,14 @@ public class getInfo extends HttpServlet {
 	private Map<String, infoVO> userList;
 	private infoVO tempInfoVO;
 	
+	public Map<String, infoVO> getUserList() {
+		return userList;
+	}
+
+	public void setUserList(Map<String, infoVO> userList) {
+		this.userList = userList;
+	}
+	
 	private static final long serialVersionUID = 1L;
        
     /**
@@ -57,9 +65,7 @@ public class getInfo extends HttpServlet {
 		rd.forward(request, response);
 		
 	}
-	
-	public void run() {
-		
-	}
+
+
 
 }
